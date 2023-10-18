@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020413;
+}
+
+nav {
+    height: 70px;
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-bottom: 2px solid #b233dc;
+}
+
+.home-menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    color: white;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.conteiner-esquerda {
+    background-color: #020413;
+    color: white;
+    width: 50%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-direita {
+    width: 50%;
+    height: calc(100vh - 70px);
+    background-image: url(../img/cadeado.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario {
+    background-color: #371947;
+    height: 400px;
+    width: 400px;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    display: flex;
+
+}
+label {
+    font-size: 15px;
+}
+
+input {
+    color: white;
+    margin: 5px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    background-color: #334155;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.conteudo-form {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    margin: 0px auto;
+    font-size: 30px;
+}
+
+.sub-title {
+    margin: 0px auto;
+    font-size: 15px;
+}
+
+.val {
+    text-decoration: none;
+    color: black;
+    width: 305px;
+    text-align: center;
+    background-color: #b233dc;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}

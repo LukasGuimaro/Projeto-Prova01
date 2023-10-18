@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.conteiner-esquerda {
+    background-color: #020413;
+    color: white;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-direita {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../img/fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.formulario {
+    height: 600px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.conteudo-form {
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    color: white;
+    margin: 5px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+    background-color: #334155;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.bot {
+    text-decoration: none;
+    color: black;
+    width: 305px;
+    text-align: center;
+    background-color: #b233dc;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+p {
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+}
+
+.senha {
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    font-size: 18px;
+}
