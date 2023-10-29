@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #020413;
+    background-image: url(../img/fundo_roxo.jpg);
+    background-size: cover;
 }
 
 nav {
@@ -16,12 +17,13 @@ nav {
     justify-content: space-between;
     gap: 40px;
     border-bottom: 2px solid #b233dc;
+    background-color: rgb(2, 4, 19, 0.6);
 }
 
 .home-menu {
     width: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 a {
@@ -36,7 +38,6 @@ a {
 .fundo {
     height: calc(100vh - 70px);
     width: 100%;
-    /* background-image: url(../img/fundo.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,7 +59,7 @@ a {
     border: 1px solid white;
     border-radius: 15px;
     display: flex;
-    background-color: #020413;
+    background-color: #371947;
     color: white;
 }
 
